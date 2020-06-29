@@ -86,3 +86,32 @@ span.m-left{
 .text a:hover::before{
     height: 100%;
 }
+
+footer{
+    color: lightslategray;
+    
+}
+
+
+/*About Page*/
+h1.about_header{
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';;
+    color: rgba(33,206,153,1);
+}
+div.about{
+    text-align: center;
+    margin-top: 5%;
+}
+div hr{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightslategray;
+}
+p.about{
+    display: block;
+    font-family: monospace;
+    color: lightslategray;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+}
