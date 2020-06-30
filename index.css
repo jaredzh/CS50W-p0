@@ -89,7 +89,7 @@ span.m-left{
 
 footer{
     color: lightslategray;
-    
+
 }
 
 
@@ -114,4 +114,20 @@ p.about{
     margin-left: auto;
     margin-right: auto;
     font-size: x-large;
+}
+div.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: lightslategray;
+    color: white;
+}
+p.copy_right{
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 10%;
+    font-size: large;
+    color: lime;
 }
