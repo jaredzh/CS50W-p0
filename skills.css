@@ -1,0 +1,115 @@
+div li{
+    padding: 0;
+    list-style: none;
+}
+
+div li h3{
+    font-family: monospace;
+}
+
+h1.programming_header{
+    font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';;
+    color: rgba(33,206,153,1);
+}
+
+.programming_skills{
+    width: 500px;
+    margin: 60px auto;
+    margin-left: 20%;
+    color: lightslategray;
+}
+
+.programming_skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 4px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(33,206,153,0.3);
+}
+
+.bar span{
+    height: 2px;
+    float: left;
+    background: rgba(33,206,153,1);
+}
+
+.C{
+    width: 90%;
+    animation: C 2s;
+}
+
+.Python{
+    width: 65%;
+    animation: Python 2s;
+}
+
+.HTML{
+    width: 55%;
+    animation: HTML 2s;
+}
+
+.Java{
+    width: 65%;
+    animation: Java 2s;
+}
+
+.MATLAB{
+    width: 40%;
+    animation: MATLAB 2s;
+}
+
+@keyframes C{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes Python{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes HTML{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes Java{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes MATLAB{
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 40%;
+    }
+}
