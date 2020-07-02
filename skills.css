@@ -12,16 +12,49 @@ h1.programming_header{
     color: rgba(33,206,153,1);
 }
 
-.programming_skills{
-    width: 500px;
-    margin: 60px auto;
+.skills{
+    width: 50%;
+    margin: 60px;
     margin-left: 20%;
     color: lightslategray;
 }
 
-.programming_skills li{
+.skills li{
     margin: 20px 0;
 }
+
+.skills2{
+    width: 50%;
+    margin: 60px;
+    margin-right: 20%;
+    color: lightslategray;
+}
+
+.dot{
+    height: 100px;
+    width: 100px;
+    background-color:#343a40;
+    
+    border:3px solid lightslategray;
+    border-radius: 50%;
+    
+    box-shadow: 0 0 3pt 2pt darkgray;
+    box-shadow: 0 0 3pt 2pt lightslategray;
+    display: block;
+    
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50%;  
+}
+
+.dot-text{
+    text-align: center;
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-top: 25%;
+    color: rgba(33,206,153,1);
+}
+
 
 .bar{
     background: #353b48;
@@ -63,6 +96,7 @@ h1.programming_header{
     width: 40%;
     animation: MATLAB 2s;
 }
+
 
 @keyframes C{
     0%{
